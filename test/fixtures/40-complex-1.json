@@ -1,0 +1,10 @@
+// tesing
+{ /*
+    multiline
+    comment
+*/
+  "a": "/**/",
+// other
+/*comment*/
+  "b": /*comment*/ "/*",
+}/**/

@@ -1,0 +1,6 @@
+{//single-line comment
+         "a":
+1,
+           //comment,
+  "b": // comment
+  2 }

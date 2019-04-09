@@ -1,0 +1,8 @@
+{/*
+    multiline
+    comment
+*/"a": "/**/",/* other
+comment*/"b": /*comment*/ "/*"/*
+  multiline
+  comment
+*/}

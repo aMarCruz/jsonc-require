@@ -6,8 +6,11 @@
 jsonc for `require`, similar to the one used by VS Code.
 
 - Transparently loads json files with comments.
+- Strips trailing commas\*
 - Strips UTF-8 BOM.
 - TypeScript definition for *.json.
+
+\* As in VS Code, double commas raises a SyntaxError.
 
 ## Install
 

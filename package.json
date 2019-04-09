@@ -1,7 +1,7 @@
 {
   "name": "jsonc-require",
   "description": "jsonc for require(), similar to the one used by VS Code.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "author": "aMarCruz <amarcruzbox-git@yahoo.com>",
   "license": "MIT",
@@ -26,7 +26,9 @@
   },
   "devDependencies": {
     "@types/node": "^11.13.1",
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "expect": "~1.20.2",
+    "mocha": "^5.2.0"
   },
   "dependencies": {
     "perf-regexes": "^1.0.1"
