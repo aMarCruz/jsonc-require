@@ -34,7 +34,7 @@ Tip: Use `import` instead `require` if you are using ES6 modules.
 
 ## TODO
 
-- [ ] Test
+- [x] Test
 - [ ] Enhance the Readme
 
 ## Support my Work
