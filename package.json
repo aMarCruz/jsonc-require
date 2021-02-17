@@ -1,7 +1,7 @@
 {
   "name": "jsonc-require",
   "description": "jsonc for require(), similar to the one used by VS Code.",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "main": "index.js",
   "author": "aMarCruz <amarcruzbox-git@yahoo.com>",
   "license": "MIT",
@@ -18,6 +18,9 @@
     "index.*",
     "lib"
   ],
+  "scripts": {
+    "test": "mocha"
+  },
   "bugs": "https://github.com/aMarCruz/jsonc-require/issues",
   "homepage": "https://github.com/aMarCruz/jsonc-require",
   "repository": {

@@ -1,5 +1,17 @@
 # Changes in jsonc-require
 
+## \[1.0.0] - 2021-02-17
+
+I have used this module for years in medium-sized applications and other libraries, it is time to go to production.
+
+### Changed
+
+- Remove typings for ".json". Use TypeScript's `resolveJsonModule` option.
+
+### Added
+
+- CI tests.
+
 ## \[0.1.1] - 2019-04-09
 
 ### Added
