@@ -49,7 +49,7 @@ Thanks for your support!
 
 ## License
 
-The [MIT](LICENSE) License &copy; 2019 Alberto Martínez
+The [MIT](LICENSE) License &copy; 2019-2021 Alberto Martínez
 
 [license-badge]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: https://github.com/aMarCruz/jsonc-require/blob/master/LICENSE

@@ -7,6 +7,7 @@ I have used this module for years in medium-sized applications and other librari
 ### Changed
 
 - Remove typings for ".json". Use TypeScript's `resolveJsonModule` option.
+- Updated license.
 
 ### Added
 
