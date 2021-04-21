@@ -28,6 +28,7 @@ require('jsonc-require')
 
 // ...and use it everywhere.
 const data = require('./mydata.json')
+// const data = require('./mydata.jsonc')
 ```
 
 Tip: Use `import` instead `require` if you are using ES6 modules.
