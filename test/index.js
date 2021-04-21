@@ -30,6 +30,7 @@ describe('parse regular json', function () {
     '01.json',
     '02-empty.json',
     '03-none.json',
+    '04.jsonc',
   ]
 
   it('with no problems', () => {
@@ -50,6 +51,13 @@ describe('parse regular json', function () {
     expect(() => {
       loadJson(files[2], false)
     }).toThrow()
+  })
+
+  it('with jsonc extension', () => {
+    const result = loadJson(files[3])
+    const expected = readJson(files[3])
+
+    expect(result).toBe(expected)
   })
 
 })
