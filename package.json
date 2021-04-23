@@ -1,7 +1,7 @@
 {
   "name": "jsonc-require",
   "description": "jsonc for require(), similar to the one used by VS Code.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "aMarCruz <amarcruzbox-git@yahoo.com>",
   "license": "MIT",
@@ -9,10 +9,11 @@
     "json",
     "jsonc",
     "comments",
-    "require"
+    "require",
+    "vscode"
   ],
   "engines": {
-    "node": ">=6.24"
+    "node": ">=8"
   },
   "files": [
     "index.*",
@@ -21,15 +22,16 @@
   "scripts": {
     "test": "mocha"
   },
-  "bugs": "https://github.com/aMarCruz/jsonc-require/issues",
-  "homepage": "https://github.com/aMarCruz/jsonc-require",
   "repository": {
     "url": "https://github.com/aMarCruz/jsonc-require",
     "type": "git"
   },
+  "bugs": {
+    "url": "https://github.com/aMarCruz/jsonc-require/issues"
+  },
   "devDependencies": {
     "@types/node": "^11.13.1",
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.0",
     "expect": "~1.20.2",
     "mocha": "^5.2.0"
   },

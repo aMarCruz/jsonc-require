@@ -1,5 +1,17 @@
 # Changes in jsonc-require
 
+## \[1.0.1] - 2021-04-23
+
+### Added
+
+- Support `.jsonc` extension. Thanks to @tacc-wbomar
+
+### Changed
+
+- Fix minor errors in comments
+- Update Readme
+- Update ESLint
+
 ## \[1.0.0] - 2021-02-17
 
 I have used this module for years in medium-sized applications and other libraries, it is time to go to production.
